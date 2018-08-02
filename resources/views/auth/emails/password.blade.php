@@ -1,0 +1,1 @@
+<h2>Восстановление доступа</h2>Для изменения пароля перейдите по ссылке: <br> <a href="{{ $link = url('password/reset', $token).'?email='.urlencode($user->getEmailForPasswordReset()) }}"> {{ $link }} </a>

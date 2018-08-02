@@ -1,0 +1,16 @@
+exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'Command "migration" is not defined.
+
+Did you mean one of these?
+    migrate
+    migrate:refresh
+    migrate:status
+    migrate:reset
+    migrate:rollback
+    migrate:install
+    make:migration' in D:\Сергей\OpenServer\OSPanel\domains\viidia.loc\vendor\symfony\console\Application.php:515
+Stack trace:
+#0 D:\Сергей\OpenServer\OSPanel\domains\viidia.loc\vendor\symfony\console\Application.php(183): Symfony\Component\Console\Application->find('migration')
+#1 D:\Сергей\OpenServer\OSPanel\domains\viidia.loc\vendor\symfony\console\Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 D:\Сергей\OpenServer\OSPanel\domains\viidia.loc\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(107): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 D:\Сергей\OpenServer\OSPanel\domains\viidia.loc\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}
